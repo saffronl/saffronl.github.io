@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    
+    <!--For the web icons-->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    
+    
+    <!--Title of the website-->
+    <title>Internships</title>
+    
+  </head>
+  <body>       
+  
+        <dl>
+          <dt><strong>Python Programmer</strong></dt>
+          <dt>April 2020 - August 2020</dt>
+          <dd>Invsto</dd>
+          <dd>Work From Home</dd>
+          <dd>
+            <ul>
+              <li>Worked with a small international team for a fintech algorithmic trading startup</li>
+              <li>Lead programmer for data upkeep and loading</li>
+            </ul>
+          </dd>
+         </dl>
+         
+  <body>
+</html>
