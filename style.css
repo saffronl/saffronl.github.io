@@ -1,14 +1,16 @@
 body {
-  background-color: lightblue;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  background-color: white;
 }
 
 h1 {
-  color: blue;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: black;
   text-align: center;
 }
 
 p {
-  font-family: verdana;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   font-size: 20px;
   border-style: none none none solid; 
 }
