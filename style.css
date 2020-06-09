@@ -1,3 +1,17 @@
+
+.header {
+  border: solid 1px #f06d06;
+  padding: 5px;
+  background-clip: content-box; /* support: IE9+ */
+  background-color: black;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: white;
+  margin: 20px;
+  padding: 20px;
+}
+
+
+
 body {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   background-color: white;
