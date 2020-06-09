@@ -6,12 +6,10 @@
   background-color: black;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   color: white;
-  margin: 20px;
-  padding: 20px;
 }
 
 
-
+/*
 body {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   background-color: white;
@@ -28,3 +26,4 @@ p {
   font-size: 20px;
   border-style: none none none solid; 
 }
+/*
