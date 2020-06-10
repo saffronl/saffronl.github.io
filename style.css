@@ -14,9 +14,10 @@
   grid-template-areas:
     'header header header header header'
     'about about about about menu'
-    'left left right right menu'
-    'projects projects projects projects menu'
-    'programming programming programming programming menu'
+    'left left left right right'
+    'projects projects projects projects projects'
+    'programming programming programming programming programming'
+    'hobbies hobbies hobbies hobbies hobbies'
     'footer footer footer footer footer';
   grid-gap: 5px;
   background-color: rgba(189, 140, 182, .5);
