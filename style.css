@@ -18,7 +18,7 @@
     'programming programming programming programming programming'
     'hobbies hobbies hobbies hobbies hobbies'
     'footer footer footer footer footer';
-  grid-gap: 2px;
+  grid-gap: 5px;
   background-color: rgba(189, 140, 182, .5);
   padding: 2px;
 }
