@@ -1,5 +1,6 @@
 
 .header {
+  margin: 10px;
   border: solid 2px #f06d06;
   border-radius: 5px;
   padding: 7px;
@@ -10,11 +11,8 @@
   color: white;
 }
 
-.about {
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-}
-
 .sectitle {
+  margin: 10px;
   border-style: none none none solid;
   padding: 5px;
   text-align: left;
@@ -23,6 +21,7 @@
 }
 
 .secinside {
+  margin: 10px;
   padding: 5px;
   text-align: left;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
