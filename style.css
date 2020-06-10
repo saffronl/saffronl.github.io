@@ -20,7 +20,7 @@
     'footer footer footer footer footer';
   grid-gap: 5px;
   background-color: rgba(189, 140, 182, .5);
-  padding: 2px;
+  padding: 5px;
 }
 
 .grid-container > div {
