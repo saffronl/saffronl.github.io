@@ -14,6 +14,8 @@
 .sectitle {
   margin: 10px;
   border-style: none none none solid;
+  border-color: #f06d06;
+  border-width: 5px;
   padding: 5px;
   text-align: left;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
