@@ -1,6 +1,7 @@
 
 .gridheader { grid-area: header; }
 .gridmenu { grid-area: menu; }
+.gridage { grid-area: age; }
 .gridabout { grid-area: about; }
 .gridmain { grid-area: main; }
 .gridfooter { grid-area: footer; }
@@ -12,7 +13,7 @@
   display: grid;
   grid-template-areas:
     'header header header header header'
-    'menu about about about about'
+    'menu age about about about'
     'main main main main main'
     'projects projects projects projects projects'
     'programming programming programming programming programming'
