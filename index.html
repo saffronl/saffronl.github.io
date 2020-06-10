@@ -10,8 +10,30 @@
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     
     <!--Title of the website-->
-    <style>
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <style>
+      .gridheader { grid-area: header; }
+.gridside { grid-area: menu; }
+.gridabout { grid-area: about; }
+.gridleft { grid-area: left; }
+.gridright { grid-area: right; }
+.gridfooter { grid-area: footer; }
+.gridprojects { grid-area: projects; }
+.gridprogramming { grid-area: programming; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header'
+    'about about about about menu'
+    'left left right right menu'
+    'projects projects projects projects menu'
+    'programming programming programming programming menu'
+    'footer footer footer footer footer';
+  grid-gap: 5px;
+  background-color: rgba(0, 149, 255, .5);
+  padding: 5px;
+}
     </style>
     
     
