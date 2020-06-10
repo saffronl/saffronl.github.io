@@ -89,10 +89,6 @@ a:link {
   color: black;
 }
 
-a:visited {
-  text-decoration: none;
-}
-
 a:hover {
   font-size: 16px;
 }
@@ -103,5 +99,5 @@ a:active {
 }
 
 a:visited {
-  color: rgb(240, 109, 6);
+  color: black;
 }
