@@ -9,8 +9,70 @@
     <!--For the web icons-->
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     
-    <!--Title of the website-->
+    <!--Title of the website
     <link rel="stylesheet" type="text/css" href="style.css" />
+-->
+    
+    <style>
+      .gridheader { grid-area: header; }
+.gridside { grid-area: menu; }
+.gridabout { grid-area: about; }
+.gridleft { grid-area: left; }
+.gridright { grid-area: right; }
+.gridfooter { grid-area: footer; }
+.gridprojects { grid-area: projects; }
+.gridprogramming { grid-area: programming; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header'
+    'about about about about menu'
+    'left left right right menu'
+    'projects projects projects projects menu'
+    'programming programming programming programming menu'
+    'footer footer footer footer footer';
+  grid-gap: 5px;
+  background-color: rgba(0, 149, 255, .5);
+  padding: 5px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 1);
+
+.header {
+  margin: 10px;
+  border: solid 2px #f06d06;
+  border-radius: 5px;
+  padding: 7px;
+  background-clip: content-box;
+  background-color: black;
+  text-align: center;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: white;
+}
+
+.sectitle {
+  margin: 10px;
+  border-style: none none none solid;
+  border-color: rgba(240, 109, 6, 1);
+  border-width: 5px;
+  background-color: rgba(0,0,0, .1);
+  padding: 5px;
+  text-align: left;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 18px;
+}
+
+.secinside {
+  margin: 10px 15px;
+  padding: 5px;
+  text-align: left;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 14px;
+}
+    
+    </style>
     
     <!--Title of the website-->
     <title>Saffron Livaccari Resume</title>
