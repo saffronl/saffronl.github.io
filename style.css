@@ -3,14 +3,34 @@
   border: solid 2px #f06d06;
   border-radius: 5px;
   padding: 7px;
-  background-clip: content-box; /* support: IE9+ */
-  border-radius: 5px;
+  background-clip: content-box;
   background-color: black;
   text-align: center;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   color: white;
 }
 
+.about {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.sectitle {
+  border-style: none none none solid;
+  padding: 5px;
+  text-align: left;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 18px;
+}
+
+.secinside {
+  padding: 5px;
+  text-align: left;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 14px;
+}
+
+
+  
 
 /*
 body {
