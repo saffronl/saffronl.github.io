@@ -30,12 +30,16 @@
 .header {
   margin: 20px;
   border: solid 2px #f06d06;
-  padding: 7px;
+  padding: 20px;
   background-clip: content-box;
   background-color: black;
+}
+.headerinside {
   text-align: center;
+  vertical-align: middle;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   color: white;
+  padding: 300px 0px;
 }
 
 .sectitle {
