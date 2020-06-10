@@ -1,9 +1,11 @@
 
 .header {
   border: solid 1px #f06d06;
+  border-radius: 5px;
   padding: 5px;
   background-clip: content-box; /* support: IE9+ */
   background-color: black;
+  text-align: center;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   color: white;
 }
