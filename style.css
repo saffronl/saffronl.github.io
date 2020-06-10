@@ -1,9 +1,8 @@
 
 .gridheader { grid-area: header; }
-.gridside { grid-area: menu; }
+.gridmenu { grid-area: menu; }
 .gridabout { grid-area: about; }
-.gridleft { grid-area: left; }
-.gridright { grid-area: right; }
+.gridmain { grid-area: main; }
 .gridfooter { grid-area: footer; }
 .gridhobbies { grid-area: hobbies; }
 .gridprojects { grid-area: projects; }
@@ -13,8 +12,8 @@
   display: grid;
   grid-template-areas:
     'header header header header header'
-    'about about about about menu'
-    'left left left right right'
+    'menu about about about about'
+    'main main main main main'
     'projects projects projects projects projects'
     'programming programming programming programming programming'
     'hobbies hobbies hobbies hobbies hobbies'
