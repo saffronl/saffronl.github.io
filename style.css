@@ -84,6 +84,14 @@ border-style: none none none none;
   font-size: 12px;
 }
 
+.footer {
+  margin: 10px 15px;
+  padding: 5px;
+  text-align: center;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 12px;
+}
+
 a:link {
   text-decoration: none;
   color: black;
