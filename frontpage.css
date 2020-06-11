@@ -1,0 +1,109 @@
+.gridheader { grid-area: header; }
+.gridmenu { grid-area: menu; }
+.gridabout { grid-area: about; }
+.gridmain { grid-area: main; }
+.gridfooter { grid-area: footer; }
+.gridhobbies { grid-area: hobbies; }
+.gridprojects { grid-area: projects; }
+.gridprogramming { grid-area: programming; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header'
+    'menu about about about about'
+    'main main main main main'
+    'projects projects projects projects projects'
+    'programming programming programming programming programming'
+    'hobbies hobbies hobbies hobbies hobbies'
+    'footer footer footer footer footer';
+  grid-gap: 8px;
+  background-color: rgba(255,255,255,1);
+  padding: 5px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.header {
+  margin: 20px;
+  border: solid 5px;
+  border-color: rgba(240, 109, 6, 1);
+  padding: 20px;
+  background-clip: content-box;
+  background-color: black;
+}
+
+.headerinside {
+  text-align: center;
+  vertical-align: middle;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: white;
+  padding: 200px 0px;
+}
+
+.sectitle {
+  border-style: none none none solid;
+  border-color: rgba(240, 109, 6, 1);
+  border-width: 0px 0px 0px 5px;
+  padding-left: 2px;
+  background-color: rgba(240, 109, 6, .2);
+  text-align: left;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 16px;
+}
+
+.secinside {
+  margin: 10px 15px;
+  padding: 5px;
+  text-align: left;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 13px;
+}
+
+.sectiontitle {
+border-style: none none none none;
+  border-color: rgba(240, 109, 6, 1);
+  border-width: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  background-color: rgba(240, 109, 6, 1);
+  text-align: center;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: white;
+  font-size: 16px;
+}
+
+.sectioninside {
+  font-size: 18px;
+  margin: 10px 15px;
+  padding: 5px;
+  text-align: center;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 12px;
+}
+
+.footer {
+  margin: 10px 15px;
+  padding: 5px;
+  text-align: center;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 12px;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  font-size: 16px;
+}
+
+a:active {
+  font-size: 16px;
+}
+
+a:visited {
+  color: black;
+}
