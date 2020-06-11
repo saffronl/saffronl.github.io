@@ -12,14 +12,11 @@
   grid-template-areas:
     'header header header header header'
     'about about about about about'
-    'main main main main main'
-    'projects projects projects projects projects'
-    'programming programming programming programming programming'
-    'hobbies hobbies hobbies hobbies hobbies'
+    'main footer hobbies projects programming'
+    'menu menu menu menu menu'
     'footer footer footer footer footer';
   grid-gap: 8px;
   background-color: rgba(0,0,0,1);
-  padding: 5px;
 }
 
 .grid-container > div {
