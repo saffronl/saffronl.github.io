@@ -78,11 +78,12 @@ a:link {
 }
 
 a:hover {
-  font-size: 16px;
+  font-size: 20px;
 }
 
 a:active {
-  font-size: 20px;
+  font-size: 25px;
+  color: rgba(240, 109, 6, 1);
 }
 
 a:visited {
