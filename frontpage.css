@@ -18,12 +18,12 @@
     'hobbies hobbies hobbies hobbies hobbies'
     'footer footer footer footer footer';
   grid-gap: 8px;
-  background-color: rgba(255,255,255,1);
+  background-color: rgba(0,0,0,1);
   padding: 5px;
 }
 
 .grid-container > div {
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgba(0,0,0, 1);
 }
 
 .header {
@@ -39,7 +39,7 @@
   text-align: center;
   vertical-align: middle;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  color: white;
+  color: rgba(240, 109, 6, 1);
   padding: 200px 0px;
 }
 
@@ -59,6 +59,7 @@
   padding: 5px;
   text-align: left;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: rgba(240, 109, 6, 1);
   font-size: 13px;
 }
 
@@ -80,6 +81,7 @@ border-style: none none none none;
   padding: 5px;
   text-align: center;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: rgba(240, 109, 6, 1);
   font-size: 12px;
 }
 
@@ -88,12 +90,13 @@ border-style: none none none none;
   padding: 5px;
   text-align: center;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: rgba(240, 109, 6, 1);
   font-size: 12px;
 }
 
 a:link {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 a:hover {
@@ -105,5 +108,5 @@ a:active {
 }
 
 a:visited {
-  color: black;
+  color: white;
 }
