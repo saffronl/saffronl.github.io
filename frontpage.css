@@ -78,11 +78,11 @@ a:link {
 }
 
 a:hover {
-  font-size: 20px;
+  font-size: 30px;
 }
 
 a:active {
-  font-size: 25px;
+  font-size: 30px;
   color: rgba(240, 109, 6, 1);
 }
 
