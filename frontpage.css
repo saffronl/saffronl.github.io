@@ -11,7 +11,7 @@
   display: grid;
   grid-template-areas:
     'header header header header header'
-    'menu about about about about'
+    'about about about about about'
     'main main main main main'
     'projects projects projects projects projects'
     'programming programming programming programming programming'
@@ -29,7 +29,7 @@
 .header {
   margin: 20px;
   border: solid 5px;
-  radius: 2px;
+  radius: 5px;
   border-color: rgba(240, 109, 6, 1);
   padding: 20px;
 }
@@ -49,7 +49,7 @@
   padding-left: 2px;
   text-align: left;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  font-size: 16px;
+  font-size: 40px;
   color: white;
 }
 
@@ -59,7 +59,7 @@
   text-align: left;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   color: rgba(240, 109, 6, 1);
-  font-size: 13px;
+  font-size: 30px;
 }
 
 .sectiontitle {
@@ -71,7 +71,7 @@
   text-align: center;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   color: white;
-  font-size: 16px;
+  font-size: 35px;
 }
 
 .sectioninside {
@@ -81,7 +81,7 @@
   text-align: center;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   color: rgba(240, 109, 6, 1);
-  font-size: 12px;
+  font-size: 300px;
 }
 
 .footer {
@@ -90,7 +90,7 @@
   text-align: center;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   color: rgba(240, 109, 6, 1);
-  font-size: 12px;
+  font-size: 20px;
 }
 
 a:link {
