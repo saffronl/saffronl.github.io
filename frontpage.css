@@ -1,7 +1,11 @@
 .gridheader { grid-area: header; }
 .gridmenu { grid-area: menu; }
 .gridabout { grid-area: about; }
-.gridmain { grid-area: main; }
+.grideducation { grid-area: education; }
+.gridprofessional { grid-area: professional; }
+.gridinternship { grid-area: internship; }
+.gridvolunteer { grid-area: volunteer; }
+.gridjobs { grid-area: jobs; }
 .gridfooter { grid-area: footer; }
 .gridhobbies { grid-area: hobbies; }
 .gridprojects { grid-area: projects; }
@@ -12,7 +16,8 @@
   grid-template-areas:
     'header header header header header'
     'about about about about about'
-    'main footer hobbies projects programming'
+    'education professional internship volunteer jobs'
+    'hobbies hobbies projects programming programming'
     'menu menu menu menu menu'
     'footer footer footer footer footer';
   grid-gap: 8px;
