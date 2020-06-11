@@ -29,7 +29,7 @@
   vertical-align: middle;
   font-family: "Courier New", Courier, monospace;
   color: rgba(240, 109, 6, 1);
-  font-size: 35px;
+  font-size: 25px;
   
 }
 
@@ -79,11 +79,11 @@ a:link {
 }
 
 a:hover {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 a:active {
-  font-size: 30px;
+  font-size: 25px;
   color: rgba(240, 109, 6, 1);
 }
 
