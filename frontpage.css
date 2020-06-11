@@ -1,21 +1,5 @@
-.gridheader { grid-area: header; }
-.gridmenu { grid-area: menu; }
-.gridabout { grid-area: about; }
-.gridfooter { grid-area: footer; }
-
-.grid-container {
-  display: grid;
-  grid-template-areas:
-    'header header header header header'
-    'about about about about about'
-    'menu menu menu menu menu'
-    'footer footer footer footer footer';
-  grid-gap: 8px;
-  background-color: rgba(0,0,0,1);
-}
-
-.grid-container > div {
-  background-color: rgba(0,0,0, 1);
+body { margin:0; 
+  background-color: black;
 }
 
 .header {
