@@ -57,6 +57,11 @@ body { margin:0;
   font-size: 18px;
 }
 
+.fa-cog {
+  color: rgba(240, 109, 6, 1);
+  size: 20px
+}
+
 a:link {
   text-decoration: none;
   color: white;
