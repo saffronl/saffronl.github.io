@@ -58,8 +58,9 @@ body { margin:0;
 }
 
 .footer {
-  margin: 30px 18px;
+  margin: 30px 15px 50px 15px;
   padding: 5px;
+  pa
   text-align: center;
   font-family: "Courier New", Courier, monospace;
   color: rgba(240, 109, 6, 1);
