@@ -3,6 +3,17 @@ body { margin:0;
   font-family: "Courier New", Courier, monospace;
 }
 
+@media screen and (max-width: 400px) {
+        h1 {
+           text-align: center;
+        }
+      }
+@media screen and (min-width:450px){
+        h1 {
+            text-align: center;
+        }
+}
+      
 .header {
   margin: 150px auto;
   border: solid 5px;
