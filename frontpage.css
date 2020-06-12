@@ -7,13 +7,11 @@ body { margin:0;
   margin: 20px;
   border: solid 5px;
   padding: 150px;
-  font-family: "Courier New", Courier, monospace;
 }
 
 .headerinside {
   text-align: center;
   vertical-align: middle;
-  font-family: "Courier New", Courier, monospace;
   color: rgba(240, 109, 6, 1);
   font-size: 25px;
   
@@ -23,7 +21,6 @@ body { margin:0;
   margin: 5px 25px;
   padding: 5px;
   text-align: left;
-  font-family: "Courier New", Courier, monospace;
   color: white;
   font-size: 20px;
 }
