@@ -4,9 +4,9 @@ body { margin:0;
 }
 
 .header {
-  margin: 20px;
+  margin: 150px;
   border: solid 5px;
-  padding: 150px;
+  padding: 20px;
 }
 
 .headerinside {
