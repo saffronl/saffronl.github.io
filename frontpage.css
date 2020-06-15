@@ -7,7 +7,7 @@ body { margin:0;
   h1 {
     text-align: center;
   }
-  #picblock {
+  .picblock {
     text-align: center;
     max-width:20%; 
     height:auto;
@@ -17,14 +17,14 @@ body { margin:0;
   h1 {
     text-align: center;
   }
-  #picblock {
+  .picblock {
     text-align: center;
     max-width:20%; 
     height:auto;
   }
 }
 
-#picblock {
+.picblock {
     text-align: center;
     max-width:20%; 
     height:auto;
