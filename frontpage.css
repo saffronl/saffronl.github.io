@@ -24,6 +24,12 @@ body { margin:0;
   }
 }
 
+#picblock {
+    text-align: center;
+    max-width:20%; 
+    height:auto;
+  }
+
 .fa-cog {
   color: rgba(240, 109, 6, 1);
   size: 20px
