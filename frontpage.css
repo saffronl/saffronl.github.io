@@ -8,6 +8,7 @@ body { margin:0;
            text-align: center;
         }
   #picblock {
+    text-align: center;
     background-image: url(mobile.png);
     background-repeat: no-repeat;
     background-size: contain ;
@@ -18,6 +19,7 @@ body { margin:0;
             text-align: center;
         }
   #picblock {
+    text-align: center;
     background-image: url(desktop.png);
     background-repeat: no-repeat;
     background-size: contain ;
