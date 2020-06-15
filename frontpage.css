@@ -9,7 +9,7 @@ body { margin:0;
   }
   #picblock {
     text-align: center;
-    width:auto; 
+    max-width:10%; 
     height:auto;
   }
       }
