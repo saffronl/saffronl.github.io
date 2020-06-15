@@ -4,25 +4,19 @@ body { margin:0;
 }
 
 @media screen and (max-width: 400px) {
-        h1 {
-           text-align: center;
-        }
-  #picblock {
+  h1 {
     text-align: center;
-    background-image: url(mobile.png);
-    background-repeat: no-repeat;
-    background-size: contain ;
+  }
+  #picblock1 {
+    text-align: center;
   }
       }
 @media screen and (min-width:450px){
-        h1 {
-            text-align: center;
-        }
-  #picblock {
+  h1 {
     text-align: center;
-    background-image: url(desktop.png);
-    background-repeat: no-repeat;
-    background-size: contain ;
+  }
+  #picblock1 {
+    text-align: center;
   }
 }
 
