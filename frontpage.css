@@ -13,7 +13,16 @@ body { margin:0;
             text-align: center;
         }
 }
-      
+
+.fa-cog {
+  color: rgba(240, 109, 6, 1);
+  size: 20px
+}
+
+.checked {
+  color: rgba(240, 109, 6, 1);
+}
+
 .header {
   margin: 150px auto;
   border: solid 5px;
