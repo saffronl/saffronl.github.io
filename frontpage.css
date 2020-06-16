@@ -7,20 +7,10 @@ body { margin:0;
   h1 {
     text-align: center;
   }
-  img.picblock {
-    text-align: center;
-    max-width:30%; 
-    height:auto;
-  }
 }
 @media screen and (min-width:450px){
   h1 {
     text-align: center;
-  }
-  img.picblock {
-    text-align: center;
-    max-width:10%; 
-    height:auto;
   }
 }
 
