@@ -86,11 +86,12 @@ a:link {
 }
 
 a:hover {
-  font-size: 25px;
+  font-size: 22px;
+  rgba(240, 109, 6, 1)
 }
 
 a:active {
-  font-size: 25px;
+  font-size: 22px;
   color: rgba(240, 109, 6, 1);
 }
 
