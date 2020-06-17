@@ -87,7 +87,7 @@ a:link {
 
 a:hover {
   font-size: 22px;
-  rgba(240, 109, 6, 1)
+  color: rgba(240, 109, 6, 1)
 }
 
 a:active {
