@@ -3,6 +3,31 @@ body { margin:0;
   font-family: "Courier New", Courier, monospace;
 }
 
+.fa-blog {
+  color: rgba(240, 109, 6, 1);
+  size: 20px;
+}
+
+.fa-youtube{
+  color: rgba(240, 109, 6, 1);
+  size: 20px;
+}
+
+.fa-file-pdf{
+  color: rgba(240, 109, 6, 1);
+  size: 20px;
+}
+
+.fa-github{
+  color: rgba(240, 109, 6, 1);
+  size: 20px;
+}
+
+.fa-cog {
+  color: rgba(240, 109, 6, 1);
+  size: 20px
+}
+
 a:link {
   text-decoration: none;
   color: white;
@@ -29,11 +54,6 @@ a:visited {
   h1 {
     text-align: center;
   }
-}
-
-.fa-cog {
-  color: rgba(240, 109, 6, 1);
-  size: 20px
 }
 
 .checked {
