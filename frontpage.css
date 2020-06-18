@@ -3,6 +3,23 @@ body { margin:0;
   font-family: "Courier New", Courier, monospace;
 }
 
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: rgba(240, 109, 6, 1);
+}
+
+a:active {
+  color: rgba(240, 109, 6, 1);
+}
+
+a:visited {
+  color: rgba(240, 109, 6, 1);
+}
+
 @media screen and (max-width: 400px) {
   h1 {
     text-align: center;
@@ -73,17 +90,4 @@ body { margin:0;
   font-family: "Courier New", Courier, monospace;
   color: rgba(240, 109, 6, 1);
   font-size: 18px;
-}
-
-a:link {
-  text-decoration: none;
-  color: white;
-}
-
-a:hover {
-  color: rgba(240, 109, 6, 1);
-}
-
-a:active {
-  color: rgba(240, 109, 6, 1);
 }
