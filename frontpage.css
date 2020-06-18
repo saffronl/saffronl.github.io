@@ -13,6 +13,16 @@ body { margin:0;
   size: 20px;
 }
 
+.fa-link{
+  color: rgba(240, 109, 6, 1);
+  size: 20px;
+}
+
+.fa-video{
+  color: rgba(240, 109, 6, 1);
+  size: 20px;
+}
+
 .fa-file-pdf{
   color: rgba(240, 109, 6, 1);
   size: 20px;
