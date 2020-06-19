@@ -45,10 +45,12 @@ a:link {
 
 a:hover {
   color: rgba(240, 109, 6, 1);
+  font-weight: bold;
 }
 
 a:active {
   color: rgba(240, 109, 6, 1);
+  font-weight: bold;
 }
 
 a:visited {
