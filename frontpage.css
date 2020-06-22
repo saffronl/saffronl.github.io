@@ -96,7 +96,7 @@ img {
     flex-wrap: nowrap;
   }
   .flex-container .box2 {
-    width: 25%;
+    width: 35%;
     margin: 5px;
     margin-left: 10px;
     display: flex;
@@ -107,7 +107,7 @@ img {
     border-radius: 8px;
   }
   .flex-container .box1 {
-    width: 75%;
+    width: 65%;
     margin: 5px;
   }
   
