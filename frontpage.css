@@ -67,16 +67,16 @@ a:visited {
     background-size: contain ;
   }
   img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  border-radius: 8px;
-  max-width: 100%;
-  height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+  }
 }
 
-}
 @media screen and (min-width:450px){
   h1 {
     text-align: center;
@@ -87,15 +87,14 @@ a:visited {
     background-size: contain ;
   }
   img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 75%;
-  border-radius: 8px;
-  max-width: 75%;
-  height: auto;
-}
-
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    border-radius: 8px;
+    max-width: 70%;
+    height: auto;
+  }
 }
 
 .checked {
