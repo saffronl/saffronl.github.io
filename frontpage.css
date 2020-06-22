@@ -61,29 +61,24 @@ img {
   max-width: 75%;
 }
 
-.picture {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 8px;
-  height: auto;
-}
-
-.picture1 {
-  float:left;
-  border-radius: 8px;
-  height: auto;
-}
-
 /* For width 400px and smaller (mobile) */
 @media screen and (max-width: 400px) {
   h1 {
     text-align: center;
   }
   .picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    height: auto;
     width: 30%;
   }
   .picture1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
     width: 30%;
   }
 }
@@ -95,15 +90,19 @@ img {
     text-align: center;
   }
   .picture {
-    background-image: url("/picture/IMG_6176.jpg");
-    background-repeat: no-repeat;
-    background-size: contain ;
-    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    height: auto;
+    width: 75%;
   }
   .picture1 {
-    background-image: url("/picture/IMG_E5728_Original.JPG");
-    background-repeat: no-repeat;
-    background-size: contain ;
+    float:left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
     width: 50%;
   }
 }
