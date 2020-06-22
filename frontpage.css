@@ -94,6 +94,9 @@ img {
   h1 {
     text-align: center;
   }
+  .flex-conatiner {
+    display: flex;
+  }
   .picture {
     display: block;
     margin-left: auto;
