@@ -97,6 +97,7 @@ img {
   .flex-container .box2 {
     width: 25%;
     margin: 5px;
+    align-items: center;
   }
   .flex-container .box1 {
     width: 75%;
