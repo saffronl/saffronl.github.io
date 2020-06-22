@@ -69,11 +69,8 @@ img {
   }
   .box2 {
     object-fit: contain;
-    margin: 5px;
+    margin: 10px;
     width: 100%;
-  }
-  .box2 img {
-    border-radius: 8px;
   }
 }
 
@@ -95,14 +92,11 @@ img {
     align-items: center;
     justify-content: center;
   }
-  .flex-container .box2 img{
-    border-radius: 8px;
   }
   .flex-container .box1 {
     width: 65%;
     margin: 5px;
-  }
-  
+  } 
 }
 
 .checked {
