@@ -58,7 +58,7 @@ a:visited {
 }
 
 img {
-  max-width: 75%;
+  max-width: 100%;
 }
 
 /* For width 400px and smaller (mobile) */
@@ -96,11 +96,11 @@ img {
   }
   .flex-container .box2 {
     width: 25%;
-    margin: 10px;
+    margin: 5px;
   }
   .flex-container .box1 {
     width: 75%;
-    margin: 10px;
+    margin: 5px;
   }
   .picture {
     display: block;
