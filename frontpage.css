@@ -75,6 +75,7 @@ img {
     width: 30%;
   }
   .picture1 {
+    object-fit: contain;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -98,6 +99,7 @@ img {
     width: 75%;
   }
   .picture1 {
+    object-fit: contain;
     float:right;
     border-radius: 8px;
     margin-left: auto;
