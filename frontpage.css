@@ -98,18 +98,11 @@ img {
     width: 25%;
     margin: 5px;
     align-items: center;
+    border-radius: 8px;
   }
   .flex-container .box1 {
     width: 75%;
     margin: 5px;
-  }
-  .picture {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 8px;
-    height: auto;
-    width: 75%;
   }
 }
 
