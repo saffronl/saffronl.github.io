@@ -59,20 +59,13 @@ a:visited {
 
 img {
   max-width: 100%;
+  border-radius: 8px;
 }
 
 /* For width 400px and smaller (mobile) */
 @media screen and (max-width: 400px) {
   h1 {
     text-align: center;
-  }
-  .picture {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 8px;
-    height: auto;
-    width: 30%;
   }
   .box2 {
     object-fit: contain;
