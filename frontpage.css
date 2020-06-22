@@ -70,7 +70,8 @@ img {
 }
 
 .picture1 {
-  float
+  float:left;
+}
 
 /* For width 400px and smaller (mobile) */
 @media screen and (max-width: 400px) {
