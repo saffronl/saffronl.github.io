@@ -69,10 +69,6 @@ img {
   margin-right: auto;
 }
 
-.picture1 {
-  float: right;
-}
-
 /* For width 400px and smaller (mobile) */
 @media screen and (max-width: 400px) {
   h1 {
@@ -110,7 +106,7 @@ img {
     background-size: contain ;
   }
   img {
-    max-width: 75%;
+    max-width: 50%;
   }
 }
 
