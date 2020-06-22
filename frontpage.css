@@ -65,6 +65,10 @@ img {
     height: auto;
   }
 
+.picture {
+  width: 70%
+}
+
 @media screen and (max-width: 400px) {
   h1 {
     text-align: center;
