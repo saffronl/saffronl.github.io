@@ -58,15 +58,12 @@ a:visited {
 }
 
 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 8px;
-    height: auto;
-  }
-
-.picture {
-  width: 70%
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  height: auto;
+  width: 75%;
 }
 
 @media screen and (max-width: 400px) {
@@ -77,6 +74,8 @@ img {
     background-image: url(mobile.png);
     background-repeat: no-repeat;
     background-size: contain ;
+  }
+  img {
     max-width: 20%;
   }
 }
@@ -89,6 +88,8 @@ img {
     background-image: url(desktop.png);
     background-repeat: no-repeat;
     background-size: contain ;
+  }
+  img {
     max-width: 75%;
   }
 }
