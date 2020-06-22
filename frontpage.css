@@ -81,15 +81,9 @@ img {
     text-align: center;
   }
   .picture {
-    background-image: url("/picture/IMG_6176.jpg");
-    background-repeat: no-repeat;
-    background-size: contain ;
     width: 30%;
   }
   .picture1 {
-    background-image: url("/picture/IMG_E5728_Original.JPG");
-    background-repeat: no-repeat;
-    background-size: contain ;
     width: 30%;
   }
 }
