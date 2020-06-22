@@ -81,14 +81,13 @@ img {
     background-image: url("/picture/IMG_6176.jpg");
     background-repeat: no-repeat;
     background-size: contain ;
+    width: 30%;
   }
   .picture1 {
     background-image: url("/picture/IMG_E5728_Original.JPG");
     background-repeat: no-repeat;
     background-size: contain ;
-  }
-  img {
-    max-width: 30%;
+    width: 30%;
   }
 }
 
@@ -102,14 +101,13 @@ img {
     background-image: url("/picture/IMG_6176.jpg");
     background-repeat: no-repeat;
     background-size: contain ;
+    width: 50%;
   }
   .picture1 {
     background-image: url("/picture/IMG_E5728_Original.JPG");
     background-repeat: no-repeat;
     background-size: contain ;
-  }
-  img {
-    max-width: 50%;
+    width: 20%;
   }
 }
 
