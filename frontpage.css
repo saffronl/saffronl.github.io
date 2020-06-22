@@ -61,10 +61,20 @@ a:visited {
   h1 {
     text-align: center;
   }
+  .picture {
+    background-image: url(mobile.png);
+    background-repeat: no-repeat;
+    background-size: contain ;
+  }
 }
 @media screen and (min-width:450px){
   h1 {
     text-align: center;
+  }
+  .picture {
+    background-image: url(desktop.png);
+    background-repeat: no-repeat;
+    background-size: contain ;
   }
 }
 
@@ -74,7 +84,7 @@ img {
   margin-right: auto;
   width: 50%;
   border-radius: 8px;
-  max-width: 50%;
+  max-width: 75%;
   height: auto;
 }
 
