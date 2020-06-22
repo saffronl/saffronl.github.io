@@ -90,6 +90,7 @@ img {
   .flex-container .box1 {
     width: 65%;
     margin: 5px;
+    align-items: center;
   } 
 }
 
