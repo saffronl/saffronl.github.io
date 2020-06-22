@@ -63,7 +63,7 @@ img {
   margin-right: auto;
   border-radius: 8px;
   height: auto;
-  width: 75%;
+  max-width: 75%;
 }
 
 @media screen and (max-width: 400px) {
