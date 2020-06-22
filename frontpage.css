@@ -63,7 +63,7 @@ img {
 }
 
 /* For width 400px and smaller (mobile) */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   h1 {
     text-align: center;
   }
@@ -76,7 +76,7 @@ img {
 
 
 /* For width 450px and larger (desktop) */
-@media screen and (min-width:450px){
+@media screen and (min-width:500px){
   h1 {
     text-align: center;
   }
