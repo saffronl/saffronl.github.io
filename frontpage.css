@@ -73,7 +73,7 @@ img {
     background-image: url(mobile.png);
     background-repeat: no-repeat;
     background-size: contain ;
-    width: 20%;
+    max-width: 20%;
   }
 }
 
@@ -85,7 +85,7 @@ img {
     background-image: url(desktop.png);
     background-repeat: no-repeat;
     background-size: contain ;
-    width: 75%;
+    max-width: 75%;
   }
 }
 
