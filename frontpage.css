@@ -66,6 +66,7 @@ img {
   max-width: 75%;
 }
 
+/* For width 400px and smaller (mobile) */
 @media screen and (max-width: 400px) {
   h1 {
     text-align: center;
@@ -80,6 +81,8 @@ img {
   }
 }
 
+
+/* For width 450px and larger (desktop) */
 @media screen and (min-width:450px){
   h1 {
     text-align: center;
