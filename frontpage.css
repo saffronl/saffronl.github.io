@@ -57,10 +57,18 @@ a:visited {
   color: rgba(240, 109, 6, 1);
 }
 
-img {
+.picture {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 8px;
+  height: auto;
+  max-width: 75%;
+}
+
+.picture1 {
+  display: block;
+  float: right;
   border-radius: 8px;
   height: auto;
   max-width: 75%;
@@ -76,8 +84,13 @@ img {
     background-repeat: no-repeat;
     background-size: contain ;
   }
+  .picture1 {
+    background-image: url(mobile.png);
+    background-repeat: no-repeat;
+    background-size: contain ;
+  }
   img {
-    max-width: 20%;
+    max-width: 30%;
   }
 }
 
@@ -88,6 +101,11 @@ img {
     text-align: center;
   }
   .picture {
+    background-image: url(desktop.png);
+    background-repeat: no-repeat;
+    background-size: contain ;
+  }
+  .picture1 {
     background-image: url(desktop.png);
     background-repeat: no-repeat;
     background-size: contain ;
