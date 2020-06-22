@@ -67,11 +67,6 @@ img {
   h1 {
     text-align: center;
   }
-  .box2 {
-    object-fit: contain;
-    margin: 10px;
-    width: 100%;
-  }
 }
 
 
