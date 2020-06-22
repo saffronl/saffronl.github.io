@@ -61,6 +61,10 @@ img {
   max-width: 75%;
 }
 
+.container {
+  width: 100%;
+}
+
 /* For width 400px and smaller (mobile) */
 @media screen and (max-width: 400px) {
   h1 {
@@ -99,7 +103,6 @@ img {
     width: 75%;
   }
   .picture1 {
-    object-fit: contain;
     float:right;
     border-radius: 8px;
     margin-left: auto;
