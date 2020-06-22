@@ -69,18 +69,21 @@ img {
   margin-right: auto;
 }
 
+.picture1 {
+  float
+
 /* For width 400px and smaller (mobile) */
 @media screen and (max-width: 400px) {
   h1 {
     text-align: center;
   }
   .picture {
-    background-image: url(mobile.png);
+    background-image: url("/picture/IMG_6176.jpg");
     background-repeat: no-repeat;
     background-size: contain ;
   }
   .picture1 {
-    background-image: url(mobile.png);
+    background-image: url("/picture/IMG_E5728_Original.JPG");
     background-repeat: no-repeat;
     background-size: contain ;
   }
@@ -96,12 +99,12 @@ img {
     text-align: center;
   }
   .picture {
-    background-image: url(desktop.png);
+    background-image: url("/picture/IMG_6176.jpg");
     background-repeat: no-repeat;
     background-size: contain ;
   }
   .picture1 {
-    background-image: url(desktop.png);
+    background-image: url("/picture/IMG_E5728_Original.JPG");
     background-repeat: no-repeat;
     background-size: contain ;
   }
