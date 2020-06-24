@@ -124,9 +124,8 @@ img {
   vertical-align: middle;
   color: white;
   font-size: 50px;
-  background-color: black;
-  outline: 5px solid;
-  outline-color rgba(240, 109, 6, 1):
+  background-color: rgba(240, 109, 6, 1);
+  outline: 5px solid black;
 }
 
 .inside {
