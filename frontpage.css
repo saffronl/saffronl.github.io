@@ -146,12 +146,12 @@ img {
 }
 
 .header {
-  padding-top:50px;
-  padding-bottom:50px;
+  padding-top:150px;
+  padding-bottom:150px;
   text-align: center;
   vertical-align: middle;
   color: rgba(240, 109, 6, 1);
-  font-size: 40px;
+  font-size: 20px;
 }
 
 .inside {
