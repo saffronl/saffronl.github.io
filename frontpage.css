@@ -10,7 +10,7 @@ body, html {
   background-image: url("/picture/IMG_7664.JPG");
 
   /* Full height */
-  min-height: 625px; 
+  min-height: 100%; 
 
   /* Create the parallax scrolling effect */ 
   position: relative;
@@ -118,6 +118,7 @@ img {
 .name {
   position: absolute;
   left: 0;
+  bottom: 0%;
   width: 100%;
   text-align: center;
   vertical-align: middle;
