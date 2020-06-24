@@ -56,6 +56,11 @@ body, html {
   size: 20px
 }
 
+.checked {
+  color: rgba(240, 109, 6, 1);
+  size: 20px;
+}
+
 a:link {
   text-decoration: none;
   color: white;
