@@ -4,17 +4,22 @@
 
   /* Set a specific height */
   height: 100%;
+  /* Full height */
+  min-height: 100%; 
 
-  /* Create the parallax scrolling effect */
+  /* Create the parallax scrolling effect */ 
+  position: relative;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-body { margin:0; 
-  background-color: black;
+body, html { 
+  height: 100%;
+  margin: 0;
   font-family: "Courier New", Courier, monospace;
+  background-color:black;
 }
 
 .fa-blog {
@@ -110,15 +115,6 @@ img {
     margin: 5px;
     align-items: center;
   } 
-}
-
-.checked {
-  color: rgba(240, 109, 6, 1);
-}
-
-.header {
-  margin: 150px auto;
-  border: solid 5px;
 }
 
 .headerinside {
