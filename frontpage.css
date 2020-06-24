@@ -145,6 +145,15 @@ img {
   outline: 10px solid white;
 }
 
+.header {
+  padding-top:50px;
+  padding-bottom:50px;
+  text-align: center;
+  vertical-align: middle;
+  color: rgba(240, 109, 6, 1);
+  font-size: 40px;
+}
+
 .inside {
   margin: 5px 25px;
   padding: 5px;
