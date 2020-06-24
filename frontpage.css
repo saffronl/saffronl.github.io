@@ -127,6 +127,13 @@ img {
   }
 }
 
+/* For desktop */
+@media screen and (max-width: 700px){
+  .picture {
+    margin: 5px 100px;
+  }
+}
+
  /* This is needed to target iPads in landscape and portrait mode when using PARALLAX */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) { 
   .parallax {
