@@ -122,10 +122,11 @@ img {
   width: 100%;
   text-align: center;
   vertical-align: middle;
-  color: rgba(240, 109, 6, 1);
-  font-size: 40px;
-  background-color: white;
-  outline: 5px solid black;
+  color: white;
+  font-size: 50px;
+  background-color: black;
+  outline: 5px solid;
+  outline-color rgba(240, 109, 6, 1):
 }
 
 .inside {
