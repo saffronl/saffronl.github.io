@@ -118,7 +118,7 @@ img {
 .name {
   position: absolute;
   left: 0;
-  padding: 5px;
+  padding: 10px;
   bottom: 0%;
   width: 100%;
   text-align: center;
@@ -126,7 +126,7 @@ img {
   color: rgba(240, 109, 6, 1);
   font-size: 50px;
   background-color: black;
-  outline: 5px solid white;
+  outline: 10px solid white;
 }
 
 .inside {
