@@ -122,7 +122,13 @@ img {
   vertical-align: middle;
   color: rgba(240, 109, 6, 1);
   font-size: 20px;
-  
+}
+
+.headerinside span.border {
+  background-color: #111;
+  padding: 18px;
+  letter-spacing: 10px;
+  text-align: center;
 }
 
 .inside {
