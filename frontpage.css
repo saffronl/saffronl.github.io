@@ -9,8 +9,6 @@ body, html {
   /* The image used */
   background-image: url("/picture/IMG_7664.JPG");
 
-  /* Set a specific height */
-  height: 100%;
   /* Full height */
   min-height: 100%; 
 
@@ -117,18 +115,15 @@ img {
   } 
 }
 
-.headerinside {
+.name {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
   text-align: center;
   vertical-align: middle;
-  color: rgba(240, 109, 6, 1);
-  font-size: 20px;
-}
-
-.headerinside span.border {
-  background-color: #111;
-  padding: 18px;
-  letter-spacing: 10px;
-  text-align: center;
+  color: black;
+  font-size: 40px;
 }
 
 .inside {
