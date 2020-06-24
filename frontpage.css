@@ -14,6 +14,7 @@ body, html {
 
   /* Create the parallax scrolling effect */ 
   position: relative;
+  margin: 0px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -118,7 +119,6 @@ img {
 .name {
   position: absolute;
   left: 0;
-  padding: 10px;
   bottom: 0%;
   width: 100%;
   text-align: center;
