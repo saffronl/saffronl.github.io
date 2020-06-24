@@ -94,6 +94,9 @@ img {
   .parallax {
     background-attachment: scroll;
   }
+  .picture {
+    margin: 0px;
+  }
 }
 
 
