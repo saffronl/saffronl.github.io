@@ -116,11 +116,7 @@ img {
   } 
 }
 
- /* This is needed to target iPads in landscape and portrait mode when using PARALLAX BG images  
-(other non-parallax BG images are fine...) .. parallax on iPhones works without this (it doesn't do parallax effect but it shows the same image as a still, 
-and at the correct scale... , but not iPads .. with iPads, what happens without this code is an ugly extreme zoom in.. 
-this is the only thing that seems to work ... no customisation needed for the individual sections.. just this code in the global CSS..*/
-
+ /* This is needed to target iPads in landscape and portrait mode when using PARALLAX */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) { 
   .parallax {
     background-attachment:scroll !important;
