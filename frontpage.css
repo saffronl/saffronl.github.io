@@ -147,7 +147,8 @@ img {
   color: rgba(240, 109, 6, 1);
   font-size: 50px;
   background-color: black;
-  outline: 10px solid white;
+  border: solid white;
+  border-width: 200px 0px;
 }
 
 .header {
