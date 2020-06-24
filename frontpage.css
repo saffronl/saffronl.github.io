@@ -119,6 +119,9 @@ img {
     margin: 5px;
     align-items: center;
   } 
+  .picture {
+    margin: 20px;
+  }
 }
 
  /* This is needed to target iPads in landscape and portrait mode when using PARALLAX */
