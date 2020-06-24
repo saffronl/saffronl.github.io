@@ -122,8 +122,9 @@ img {
   width: 100%;
   text-align: center;
   vertical-align: middle;
-  color: black;
+  color: rgba(240, 109, 6, 1);
   font-size: 40px;
+  background-color:black;
 }
 
 .inside {
