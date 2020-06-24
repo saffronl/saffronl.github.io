@@ -128,7 +128,7 @@ img {
 }
 
 /* For desktop */
-@media screen and (max-width: 700px){
+@media screen and (max-width: 900px) and (min-width:500px) {
   .picture {
     margin: 5px 100px;
   }
