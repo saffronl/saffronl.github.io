@@ -81,8 +81,8 @@ img {
   margin: 5px;
 }
 
-/* For width 400px and smaller (mobile) */
-@media screen and (max-width: 500px) {
+/* For width 700px and smaller (mobile) */
+@media screen and (max-width: 700px) {
   h1 {
     text-align: center;
   }
