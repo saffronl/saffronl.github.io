@@ -122,7 +122,7 @@ and at the correct scale... , but not iPads .. with iPads, what happens without 
 this is the only thing that seems to work ... no customisation needed for the individual sections.. just this code in the global CSS..*/
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) { 
-  .x-section.bg-image.parallax, .x-section.bg-pattern.parallax {
+   .parallax {
     background-attachment:scroll !important;
     background-size: cover;
     height: 100%;
