@@ -98,7 +98,8 @@ img {
     margin: 0px;
   }
   span {
-  display: block;
+    display: block;
+    font-size: 15px;
   }
 }
 
