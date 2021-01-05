@@ -97,6 +97,17 @@ img {
   .picture {
     margin: 0px;
   }
+  .footerdesktop {
+  display: block
+}
+  .footermobile {
+  margin: 30px 15px 50px 15px;
+  padding: 5px;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  color: rgba(240, 109, 6, 1);
+  font-size: 15px;
+}
 }
 
 
@@ -125,6 +136,17 @@ img {
   .picture {
     margin: 5px 250px;
   }
+  .footermobile {
+  display: block
+}
+  .footerdesktop {
+  margin: 30px 15px 50px 15px;
+  padding: 5px;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  color: rgba(240, 109, 6, 1);
+  font-size: 15px;
+}
 }
 
 /* For desktop */
