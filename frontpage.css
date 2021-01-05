@@ -111,7 +111,7 @@ img {
 }
 
 
-/* For width 450px and larger (desktop) */
+/* For width 500px and larger (desktop) */
 @media screen and (min-width:500px){
   h1 {
     text-align: center;
@@ -154,6 +154,14 @@ img {
   .picture {
     margin: 5px 0px;
   }
+  .footerdesktop {
+  margin: 30px 15px 50px 15px;
+  padding: 5px;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  color: rgba(240, 109, 6, 1);
+  font-size: 15px;
+  }
 }
 
  /* This is needed to target iPads in landscape and portrait mode when using PARALLAX */
@@ -167,6 +175,14 @@ img {
     overflow: hidden;
     position: relative;
     margin: 0px;
+  }
+  .footerdesktop {
+  margin: 30px 15px 50px 15px;
+  padding: 5px;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  color: rgba(240, 109, 6, 1);
+  font-size: 15px;
   }
 }
 
@@ -225,7 +241,7 @@ img {
   font-size: 20px;
 }
 
-.footer {
+.footerdesktop {
   margin: 30px 15px 50px 15px;
   padding: 5px;
   text-align: center;
