@@ -62,22 +62,26 @@ body, html {
 }
 
 a:link {
-  text-decoration: none;
+  background-color: rgba(240, 109, 6, 1);
   color: white;
+  padding: 5px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
 }
 
 a:hover {
-  color: rgba(240, 109, 6, 1);
+  color: white;
   font-weight: bold;
 }
 
 a:active {
-  color: rgba(240, 109, 6, 1);
+  color: black);
   font-weight: bold;
 }
 
 a:visited {
-  color: rgba(240, 109, 6, 1);
+  color: black;
 }
 
 img {
