@@ -62,7 +62,7 @@ body, html {
 }
 
 a:link {
-  background-color: rgba(240, 109, 6, 1);
+  background-color: rgba(240, 109, 6, .2);
   color: white;
   padding: 5px 25px;
   text-align: center;
@@ -71,6 +71,7 @@ a:link {
 }
 
 a:hover {
+  background-color: rgba(240, 109, 6, 1)
   color: white;
   font-weight: bold;
 }
